@@ -1,0 +1,22 @@
+# Powered by Zyro.com
+DirectoryIndex index.php index.cgi index.html
+ErrorDocument 401 "Unauthorized"
+ErrorDocument 403 "Forbidden"
+RewriteEngine On
+#### PERSISTENT CONTENT ####
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ zyro/$1 [L,QSA]
+
+
+
+Options All -Indexes
+
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:uWamed
+ErrorDocument 500 /500.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uWamed:ERRORPAGEID
+
