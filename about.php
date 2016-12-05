@@ -71,7 +71,7 @@ From money activities related to purchases to lending and borrowing, your secure
 </p>
 
 <p>
-    This Project was developed by Abhiram M, Anirudh D, Gayathri, Ramanujan, Rohan Chandrasekar.
+    This Project was developed by Abhiram M, Anirudh D, Ramanujan, Rohan Chandrasekar.
 </p>
 
 </h3>
